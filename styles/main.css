@@ -81,13 +81,6 @@ body {
   font-size: 18px;
 }
 
-/* html::-webkit-scrollbar {
-        display: none;
-    } */
-/* html {
-  overflow-x: hidden;
-}
- */
 .intro-img {
   display: block;
   width: 100%;
@@ -115,7 +108,7 @@ body {
   background: linear-gradient(hsl(136, 64%, 51%), hsl(192, 69%, 51%));
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .request button {
     width: 10rem;
     padding: 11px 25px;
@@ -185,7 +178,7 @@ figcaption {
 }
 
 /******Desktop section*********/
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .articles-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -283,7 +276,7 @@ figcaption {
   overflow: hidden;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -384,7 +377,7 @@ figcaption {
   font-weight: 700;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   .modal {
     display: none;
   }
@@ -445,7 +438,7 @@ footer {
   margin: 1.5rem 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   footer {
     padding-bottom: 4rem;
   }
@@ -561,7 +554,7 @@ header {
   display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   header {
     display: flex;
     align-items: center;
@@ -596,7 +589,7 @@ header {
     display: none;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .top-navigation {
     display: block;
     position: static;
@@ -656,7 +649,7 @@ header {
   margin: 2.5rem auto;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .features-section {
     margin-top: -5rem;
     padding-top: 5rem;
